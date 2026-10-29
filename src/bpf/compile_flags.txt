@@ -1,0 +1,7 @@
+-target
+bpf
+-D__TARGET_ARCH_x86
+-I.
+-I/usr/include
+-Wno-unknown-attributes
+-xc
