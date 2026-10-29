@@ -1,0 +1,3 @@
+[build]
+# Avoid spaces in target path for libbpf-sys GNU Make build
+target-dir = "/tmp/target_network_performance"

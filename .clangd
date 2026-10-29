@@ -1,0 +1,12 @@
+CompileFlags:
+  Add:
+    - -xc
+    - -target
+    - bpf
+    - -D__TARGET_ARCH_x86
+    - -Isrc/bpf
+    - -I/usr/include
+    - -Wno-unknown-attributes
+  Remove:
+    - -xobjective-c++-header
+    - -xc++-header
